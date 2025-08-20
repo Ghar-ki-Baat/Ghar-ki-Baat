@@ -1,0 +1,44 @@
+/* App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white font-inter;
+  background-image: url('./assets/stardust.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  scroll-behavior: smooth;
+}
+
+.section {
+  @apply py-16 px-4 md:px-20;
+}
+
+.button {
+  @apply bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-xl shadow-md transition duration-300;
+}
+
+.input-field {
+  @apply w-full p-3 rounded-md bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-teal-500 shadow-sm;
+}
+
+.label {
+  @apply text-sm font-medium mb-2 block;
+}
+
+.card {
+  @apply bg-[#fdf6e3]/80 p-6 rounded-2xl shadow-xl backdrop-blur-md text-gray-900;
+}
+
+
+
+.logo-img {
+  @apply w-32 md:w-40;
+}
+
+.qr-img {
+  @apply w-32 md:w-36 rounded-xl border-2 border-white shadow-lg;
+}
