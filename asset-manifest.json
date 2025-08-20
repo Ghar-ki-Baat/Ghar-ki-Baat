@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d151b57.css",
-    "main.js": "/static/js/main.e923a5ed.js",
-    "static/media/stardust.png": "/static/media/stardust.78dede8fe20a12c3f2ba.png",
-    "static/media/logo.png": "/static/media/logo.53cb88ededcaa5036bb9.png",
-    "index.html": "/index.html",
-    "main.8d151b57.css.map": "/static/css/main.8d151b57.css.map",
-    "main.e923a5ed.js.map": "/static/js/main.e923a5ed.js.map"
+    "main.css": "/Ghar-ki-Baat/static/css/main.1da15856.css",
+    "main.js": "/Ghar-ki-Baat/static/js/main.c73a5181.js",
+    "static/media/stardust.png": "/Ghar-ki-Baat/static/media/stardust.78dede8fe20a12c3f2ba.png",
+    "static/media/logo.png": "/Ghar-ki-Baat/static/media/logo.53cb88ededcaa5036bb9.png",
+    "index.html": "/Ghar-ki-Baat/index.html",
+    "main.1da15856.css.map": "/Ghar-ki-Baat/static/css/main.1da15856.css.map",
+    "main.c73a5181.js.map": "/Ghar-ki-Baat/static/js/main.c73a5181.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d151b57.css",
-    "static/js/main.e923a5ed.js"
+    "static/css/main.1da15856.css",
+    "static/js/main.c73a5181.js"
   ]
 }
