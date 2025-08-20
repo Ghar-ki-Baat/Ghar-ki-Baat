@@ -11,6 +11,8 @@ function App() {
   const [selectedMonth, setSelectedMonth] = useState('');
   const [selectedDate, setSelectedDate] = useState('');
   const [selectedTime, setSelectedTime] = useState('');
+  const [menuOpen, setMenuOpen] = useState(false);
+
   // Only allow current month and next month, year fixed as 2025
   const today = new Date();
   const currentMonth = today.getMonth(); // 0-11
@@ -81,8 +83,22 @@ const dateOptions = selectedMonth !== '' ? Array.from({ length: daysInMonth(2025
           <a href="#booking">Book Session</a>
           <a href="#faq">FAQ</a>
         </nav>
-      </header>
+        <button
+            className="md:hidden text-2xl focus:outline-none"
+            onClick={() => setMenuOpen(!menuOpen)}
+            > 
+              ☰
 
+        </button>
+        {menuOpen && (
+             <div className="absolute top-full right-0 w-48 bg-black bg-opacity-90 flex flex-col space-y-2 p-4 md:hidden">
+              <a href="#whatwedo" onClick={() => setMenuOpen(false)}>What We Do</a>
+              <a href="#trust" onClick={() => setMenuOpen(false)}>Why Trust Us</a>
+              <a href="#pricing" onClick={() => setMenuOpen(false)}>Pricing</a>
+              <a href="#booking" onClick={() => setMenuOpen(false)}>Book Session</a>
+              <a href="#faq" onClick={() => setMenuOpen(false)}>FAQ</a>
+              </div>)}
+          </header>
       <section className="min-h-[90vh] grid grid-cols-1 md:grid-cols-2 place-items-center p-8">
         <div>
           <h2 className="text-4xl font-semibold mb-4">When no one listens, we do.</h2>
