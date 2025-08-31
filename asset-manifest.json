@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Ghar-ki-Baat/static/css/main.1c7ac32b.css",
-    "main.js": "/Ghar-ki-Baat/static/js/main.1fb7d6d0.js",
+    "main.js": "/Ghar-ki-Baat/static/js/main.7fafe7ed.js",
     "static/media/stardust.png": "/Ghar-ki-Baat/static/media/stardust.78dede8fe20a12c3f2ba.png",
     "static/media/logo.png": "/Ghar-ki-Baat/static/media/logo.86cabffa7e50326c066f.png",
     "index.html": "/Ghar-ki-Baat/index.html",
     "main.1c7ac32b.css.map": "/Ghar-ki-Baat/static/css/main.1c7ac32b.css.map",
-    "main.1fb7d6d0.js.map": "/Ghar-ki-Baat/static/js/main.1fb7d6d0.js.map"
+    "main.7fafe7ed.js.map": "/Ghar-ki-Baat/static/js/main.7fafe7ed.js.map"
   },
   "entrypoints": [
     "static/css/main.1c7ac32b.css",
-    "static/js/main.1fb7d6d0.js"
+    "static/js/main.7fafe7ed.js"
   ]
 }
